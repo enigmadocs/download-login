@@ -1,0 +1,16 @@
+###
+# Parsefile for download-login-context
+# 2017-08-29
+###
+
+name: download-login-context
+description: "Logs into a website and downloads data through the API"
+maintainers:
+  - Peter Henderson <name@domain.com>
+version: "1.0.0"
+license: none
+source_urls:
+  - "http://example.org/example.csv"
+
+extract:
+  - data.yaml

@@ -1,0 +1,166 @@
+{
+  "ancestors": [
+    {
+      "created_at": "2017-06-10T21:05:33.780625+00:00", 
+      "description": "Data sources that come from companies or commercial data.", 
+      "description_short": "Data sources that come from companies or commercial data.", 
+      "display_name": "Companies", 
+      "editable": false, 
+      "id": "5f8faa60-e6c3-4dc0-8eea-ade8c81d1265", 
+      "modified_at": "2017-06-27T14:06:32.352415+00:00", 
+      "published": true
+    }, 
+    {
+      "created_at": "2017-06-11T19:34:13.078148+00:00", 
+      "description": "New York based stock exchange, that is the 2nd largest by market capitalization. Stock exchanges are markets were traders can buy and sell stocks, bonds and other securities, and their overall levels are used as a barometer for the economy.  \n\nIt is owned and operated by NASDAQ OMX, an American multinational financial services company that also owns and operates 8 other stock exchanges.", 
+      "description_short": "New York based stock exchange, that is the 2nd largest by market capitalization. Stock exchanges are markets were traders can buy and sell stocks, bonds and other securities, and their overall levels are used as a barometer for the economy.", 
+      "display_name": "NASDAQ", 
+      "editable": false, 
+      "id": "e890eb15-3e58-4f8a-9ef2-1d5328602df4", 
+      "modified_at": "2017-06-11T19:34:13.078153+00:00", 
+      "published": true
+    }, 
+    {
+      "created_at": "2017-06-11T19:34:13.078157+00:00", 
+      "description": "Data relating to companies listed on the following stock exchanges: Nasdaq, NYSE, and AMEX.", 
+      "description_short": "Data relating to companies listed on the following stock exchanges: Nasdaq, NYSE, and AMEX.", 
+      "display_name": "Stock Exchanges", 
+      "editable": false, 
+      "id": "c23b28bd-9bd1-4e82-b294-76714c9223cf", 
+      "modified_at": "2017-08-23T15:21:50.332314+00:00", 
+      "published": true
+    }, 
+    {
+      "created_at": "2017-06-11T19:34:13.078162+00:00", 
+      "description": "Companies listed on the Nasdaq, NYSE, and AMEX stock exchanges.", 
+      "description_short": "Companies listed on the Nasdaq, NYSE, and AMEX stock exchanges.", 
+      "display_name": "Stock Exchanges - Company Listings", 
+      "editable": false, 
+      "id": "50a2457d-6407-4581-8f14-5d37a9410fa9", 
+      "modified_at": "2017-08-23T15:21:59.640415+00:00", 
+      "published": true
+    }
+  ], 
+  "citation": "http://www.nasdaq.com/screening/company-list.aspx", 
+  "created_at": "2017-05-07T07:55:45.184629+00:00", 
+  "current_snapshot": {
+    "fields": [
+      {
+        "data_type": "string", 
+        "description": "Company Ticker Symbol. A ticker symbol or stock symbol is an abbreviation used to uniquely identify publicly traded shares of a particular stock on a particular stock market. A stock symbol may consist of letters, numbers or a combination of both.", 
+        "display_name": "Company Symbol", 
+        "name": "symbol", 
+        "visible_by_default": true
+      }, 
+      {
+        "data_type": "string", 
+        "description": "Company Name", 
+        "display_name": "Company Name", 
+        "name": "name", 
+        "visible_by_default": true
+      }, 
+      {
+        "data_type": "string", 
+        "description": "Last Sale Price - Delayed data, current as of \"Last Update Date\"", 
+        "display_name": "Last Sale Price", 
+        "name": "lastsale", 
+        "visible_by_default": true
+      }, 
+      {
+        "data_type": "string", 
+        "description": "Market Cap. Refers to the total market value of all of a company's outstanding shares.", 
+        "display_name": "Market Cap", 
+        "name": "marketcap", 
+        "visible_by_default": true
+      }, 
+      {
+        "data_type": "string", 
+        "description": "American depositary receipt - Total Shares Outstanding. This refers to a negotiable certificate of title to a number of shares in a non-US company that are deposited in an overseas bank.", 
+        "display_name": "ADR - Total Shares Outstanding", 
+        "name": "adr_tso", 
+        "visible_by_default": true
+      }, 
+      {
+        "data_type": "string", 
+        "description": "Initial Public Offering Year (YYYY)", 
+        "display_name": "IPO Year", 
+        "name": "ipoyear", 
+        "visible_by_default": true
+      }, 
+      {
+        "data_type": "string", 
+        "description": "Industry Sector", 
+        "display_name": "Sector", 
+        "name": "sector", 
+        "visible_by_default": true
+      }, 
+      {
+        "data_type": "string", 
+        "description": "Industry listed by Standard Industry Codes (SIC). The standard industrial classification (SIC) is a system for classifying industries by a four-digit code.", 
+        "display_name": "Industry", 
+        "name": "industry", 
+        "visible_by_default": true
+      }, 
+      {
+        "data_type": "string", 
+        "description": "Summary Quote - URL for current price listing and company information hosted by NasDaq.com", 
+        "display_name": "Summary Quote URL", 
+        "name": "summary_quote", 
+        "visible_by_default": true
+      }
+    ], 
+    "highlights": [], 
+    "id": "8508e202-7b9c-4419-84c8-63276c23626c", 
+    "row_count": 3209, 
+    "table_rows": {
+      "count": 3209, 
+      "fields": [
+        "symbol", 
+        "name", 
+        "lastsale", 
+        "marketcap", 
+        "adr_tso", 
+        "ipoyear", 
+        "sector", 
+        "industry", 
+        "summary_quote"
+      ], 
+      "rows": [
+        [
+          "PIH", 
+          "1347 Property Insurance Holdings, Inc.", 
+          "7.1", 
+          "42293038.6", 
+          "n/a", 
+          "n/a", 
+          "Finance", 
+          "Property-Casualty Insurers", 
+          "http://www.nasdaq.com/symbol/pih"
+        ], 
+        [
+          "TURN", 
+          "180 Degree Capital Corp.", 
+          "1.5979", 
+          "49729143.9198", 
+          "n/a", 
+          "n/a", 
+          "Finance", 
+          "Finance/Investors Services", 
+          "http://www.nasdaq.com/symbol/turn"
+        ]
+      ]
+    }
+  }, 
+  "data_updated_at": null, 
+  "description": "Companies listed on the NASDAQ Stock Exchange.", 
+  "description_short": "Companies listed on the NASDAQ Stock Exchange.", 
+  "display_name": "Company Listings - NASDAQ Stock Exchange", 
+  "editable": false, 
+  "id": "ebb5e1c4-3780-4524-9d12-6f2a9f6b83b6", 
+  "modified_at": "2017-08-23T15:22:32.634973+00:00", 
+  "parent_collection": {
+    "id": "50a2457d-6407-4581-8f14-5d37a9410fa9"
+  }, 
+  "published": true, 
+  "schema_updated_at": null
+}
