@@ -7,4 +7,4 @@ extract:
         url_encoded_body: "{ context.url_encoded_body }"
     request_method: get
     urls:
-      - https://public.enigma.com/api/datasets/ebb5e1c4-3780-4524-9d12-6f2a9f6b83b6?&row_limit=2
+      - https://public.enigma.com/api/datasets/ebb5e1c4-3780-4524-9d12-6f2a9f6b83b6?&row_limit=10
